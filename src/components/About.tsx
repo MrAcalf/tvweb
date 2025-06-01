@@ -60,11 +60,11 @@ const About: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-2 text-gray-800">
-                    Disponibilidade 24/7
+                    Atendimento por WhatsApp
                   </h3>
                   <p className="text-gray-600">
-                    Nossa equipe de suporte está disponível 24 horas por dia, 7
-                    dias por semana, para garantir que você tenha a melhor
+                    Nossa equipe de suporte está disponível para te ajudar com
+                    qualquer problema, para garantir que você tenha a melhor
                     experiência possível.
                   </p>
                 </div>

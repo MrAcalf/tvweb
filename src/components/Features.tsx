@@ -47,9 +47,9 @@ const Features: React.FC = () => {
     },
     {
       icon: <Headphones size={24} />,
-      title: "Suporte 24/7",
+      title: "Suporte por WhatsApp",
       description:
-        "Nossa equipe de suporte dedicada está disponível 24 horas por dia para ajudar com qualquer problema.",
+        "Nossa equipe de suporte dedicada está disponível para te ajudar com qualquer problema.",
     },
     {
       icon: <Clock size={24} />,

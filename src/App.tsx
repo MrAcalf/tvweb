@@ -13,7 +13,11 @@ import { ModalProvider } from "./providers/Modal.provider";
 import { useModal } from "./hooks/useModal";
 
 function AppContent() {
-  const { isModalOpen, openModal, closeModal } = useModal();
+  const { isModalOpen, openModal, closeModal } = useModal() as {
+    isModalOpen: boolean;
+    openModal: () => void;
+    closeModal: () => void;
+  };
 
   useEffect(() => {
     // Set the document title
@@ -48,7 +52,7 @@ function AppContent() {
       {/* WhatsApp Floating Button */}
       <a
         href={`https://wa.me/5512982003016?text=${encodeURIComponent(
-          "Hello, I'd like to know more about your TV plans."
+          "Olá, gostaria de saber mais sobre seus planos de TV."
         )}`}
         target="_blank"
         rel="noopener noreferrer"

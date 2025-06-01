@@ -1,7 +1,8 @@
 import React from "react";
 import { PlayCircle } from "lucide-react";
-
+import { useModal } from "../hooks/useModal";
 const Hero: React.FC = () => {
+  const { openModal } = useModal();
   return (
     <section className="pt-24 md:pt-32 pb-16 md:pb-24 relative overflow-hidden">
       {/* Gradient Background */}
@@ -37,14 +38,7 @@ const Hero: React.FC = () => {
               </a>
 
               <button
-                  onClick={() => {
-                    const howItWorksSection = document.getElementById(
-                      "how-it-works"
-                    );
-                    if (howItWorksSection) {
-                      howItWorksSection.scrollIntoView({ behavior: "smooth" });
-                    }
-                  }}
+                onClick={() => openModal()}
                 className="inline-flex items-center justify-center bg-white text-purple-600 border border-purple-200 font-medium py-3 px-6 rounded-lg hover:bg-purple-50 transition-colors"
               >
                 <PlayCircle size={20} className="mr-2" />

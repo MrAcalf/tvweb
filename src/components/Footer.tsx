@@ -68,15 +68,7 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <a
-                  href="#"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  FAQ
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
+                  href="#features"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Suporte
@@ -84,48 +76,10 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#about"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Sobre Nós
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="font-bold text-lg mb-6">Legal</h3>
-            <ul className="space-y-3">
-              <li>
-                <a
-                  href="#"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  Termos de Serviço
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  Política de Privacidade
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  Política de Reembolso
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  Direitos Autorais
                 </a>
               </li>
             </ul>
@@ -139,21 +93,14 @@ const Footer: React.FC = () => {
                   size={20}
                   className="text-purple-400 mr-3 flex-shrink-0"
                 />
-                <span className="text-gray-400">+55 11 99999-9999</span>
-              </li>
-              <li className="flex">
-                <Mail
-                  size={20}
-                  className="text-purple-400 mr-3 flex-shrink-0"
-                />
-                <span className="text-gray-400">contact@luislimasat.com</span>
+                <span className="text-gray-400">+55 12 98200-3016</span>
               </li>
               <li className="flex">
                 <MapPin
                   size={20}
                   className="text-purple-400 mr-3 flex-shrink-0"
                 />
-                <span className="text-gray-400">São Paulo, Brazil</span>
+                <span className="text-gray-400">São Paulo, Brasil</span>
               </li>
             </ul>
           </div>
