@@ -27,8 +27,6 @@ const Hero: React.FC = () => {
               Tenha acesso a centenas de canais com qualidade HD cristalina.
               Encontre o plano perfeito para suas necessidades de
               entretenimento.
-
-              Atendemos em Guaratinguetá e região.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">

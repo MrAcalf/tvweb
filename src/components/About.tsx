@@ -97,7 +97,7 @@ const About: React.FC = () => {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="absolute -bottom-6 -right-6 bg-white p-6 rounded-xl shadow-lg">
+            <div className="absolute -bottom-6 -right-0 bg-white p-6 rounded-xl shadow-lg">
               <div className="text-center">
                 <div className="text-4xl font-bold text-purple-600 mb-2">
                   10+

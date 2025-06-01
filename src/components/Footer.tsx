@@ -108,7 +108,7 @@ const Footer: React.FC = () => {
                   size={20}
                   className="text-purple-400 mr-3 flex-shrink-0"
                 />
-                <span className="text-gray-400">Guaratinguetá, São Paulo, Brasil</span>
+                <span className="text-gray-400">São Paulo, Brasil</span>
               </li>
             </ul>
           </div>

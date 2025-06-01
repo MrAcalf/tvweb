@@ -39,6 +39,20 @@ const PlanSection: React.FC = () => {
       name: "Plano Ultimate",
       price: 119.99,
       features: [
+        "180 dias de acesso",
+        "2 telas",
+        "Esportes, Filmes, Séries e Novelas",
+        "Stream de alta qualidade (sem travamentos)",
+        "Suporte Especializado",
+      ],
+      color: "bg-green-500",
+      hoverColor: "hover:bg-green-400",
+    },
+    {
+      id: "ultimate",
+      name: "Plano Ultimate",
+      price: 169.99,
+      features: [
         "365 dias de acesso",
         "2 telas",
         "Esportes, Filmes, Séries e Novelas",
@@ -67,7 +81,7 @@ const PlanSection: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-4 lg:gap-8 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 xs:gap-20 lg:gap-8 max-w-5xl mx-auto">
           {plans.map((plan) => (
             <div key={plan.id} className="flex justify-center">
               <PlanCard plan={plan} />
