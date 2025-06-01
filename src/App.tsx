@@ -11,6 +11,7 @@ import VideoModal from "./components/VideoModal";
 import { Play } from "lucide-react";
 import { ModalProvider } from "./providers/Modal.provider";
 import { useModal } from "./hooks/useModal";
+import FAQSection from "./components/FAQSection";
 
 function AppContent() {
   const { isModalOpen, openModal, closeModal } = useModal() as {
@@ -21,7 +22,7 @@ function AppContent() {
 
   useEffect(() => {
     // Set the document title
-    document.title = "Luis Lima Sat - Premium TV Plans";
+    document.title = "UniTv Oficial Recargas - Premium TV Plans";
   }, []);
 
   return (
@@ -34,6 +35,7 @@ function AppContent() {
         <About />
         <Testimonials />
         <CTASection />
+        <FAQSection />
       </main>
       <Footer />
 

@@ -23,9 +23,11 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
           <Tv2 size={32} className="text-purple-600 mr-2" strokeWidth={2.5} />
-          <span className="font-bold text-2xl bg-gradient-to-r from-purple-600 to-green-500 bg-clip-text text-transparent">
-            Luis Lima Sat
-          </span>
+          <a href="#hero">
+            <span className="font-bold text-2xl bg-gradient-to-r from-purple-600 to-green-500 bg-clip-text text-transparent">
+              UniTv Oficial Recargas
+            </span>
+          </a>
         </div>
 
         {/* Desktop Navigation */}
@@ -53,6 +55,12 @@ const Header: React.FC = () => {
             className="text-gray-700 hover:text-purple-600 font-medium transition-colors"
           >
             Contato
+          </a>
+          <a
+            href="#faq"
+            className="text-gray-700 hover:text-purple-600 font-medium transition-colors"
+          >
+            FAQ
           </a>
         </nav>
 

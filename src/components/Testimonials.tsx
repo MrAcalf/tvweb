@@ -59,7 +59,7 @@ const Testimonials: React.FC = () => {
     },
     {
       quote:
-        "Já experimentei outros serviços antes, mas o Luis Lima Sat oferece a melhor seleção de canais de longe. Altamente recomendado!",
+        "Já experimentei outros serviços antes, mas o UniTv Oficial Recargas oferece a melhor seleção de canais de longe. Altamente recomendado!",
       author: "Carlos Mendez",
       role: "Assinante Ultimate",
       rating: 5,

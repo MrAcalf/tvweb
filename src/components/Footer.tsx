@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
             <div className="flex items-center mb-6">
               <Tv2 size={32} className="text-purple-400 mr-2" />
               <span className="font-bold text-2xl bg-gradient-to-r from-purple-400 to-green-400 bg-clip-text text-transparent">
-                Luis Lima Sat
+                UniTv Oficial Recargas
               </span>
             </div>
             <p className="text-gray-400 mb-6">
@@ -82,6 +82,14 @@ const Footer: React.FC = () => {
                   Sobre Nós
                 </a>
               </li>
+              <li>
+                <a
+                  href="#faq"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  FAQ
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -100,7 +108,7 @@ const Footer: React.FC = () => {
                   size={20}
                   className="text-purple-400 mr-3 flex-shrink-0"
                 />
-                <span className="text-gray-400">São Paulo, Brasil</span>
+                <span className="text-gray-400">Guaratinguetá, São Paulo, Brasil</span>
               </li>
             </ul>
           </div>
@@ -108,8 +116,8 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-gray-800 pt-8">
           <p className="text-gray-500 text-center">
-            &copy; {new Date().getFullYear()} Luis Lima Sat. Todos os direitos
-            reservados.
+            &copy; {new Date().getFullYear()} UniTv Oficial Recargas. Todos os
+            direitos reservados.
           </p>
         </div>
       </div>

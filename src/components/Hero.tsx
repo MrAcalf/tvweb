@@ -4,7 +4,7 @@ import { useModal } from "../hooks/useModal";
 const Hero: React.FC = () => {
   const { openModal } = useModal();
   return (
-    <section className="pt-24 md:pt-32 pb-16 md:pb-24 relative overflow-hidden">
+    <section id="hero" className="pt-24 md:pt-32 pb-16 md:pb-24 relative overflow-hidden">
       {/* Gradient Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-purple-50 to-purple-100 z-0"></div>
 
@@ -27,6 +27,8 @@ const Hero: React.FC = () => {
               Tenha acesso a centenas de canais com qualidade HD cristalina.
               Encontre o plano perfeito para suas necessidades de
               entretenimento.
+
+              Atendemos em Guaratinguetá e região.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">

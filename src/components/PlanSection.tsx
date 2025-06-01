@@ -10,11 +10,11 @@ const PlanSection: React.FC = () => {
       name: "Plano Básico",
       price: 24.99,
       features: [
-        "100+ canais",
-        "Qualidade HD",
-        "Stream em 1 dispositivo",
-        "Replay de 7 dias",
-        "Suporte básico",
+        "30 dias de acesso",
+        "2 telas",
+        "Esportes, Filmes, Séries e Novelas",
+        "Stream de alta qualidade (sem travamentos)",
+        "Suporte Especializado",
       ],
       color: "bg-purple-500",
       hoverColor: "hover:bg-purple-600",
@@ -24,12 +24,11 @@ const PlanSection: React.FC = () => {
       name: "Plano Premium",
       price: 69.99,
       features: [
-        "200+ canais",
-        "Qualidade Full HD",
-        "Stream em 3 dispositivos",
-        "Replay de 30 dias",
-        "Suporte premium",
-        "Canais de esportes incluídos",
+        "90 dias de acesso",
+        "2 telas",
+        "Esportes, Filmes, Séries e Novelas",
+        "Stream de alta qualidade (sem travamentos)",
+        "Suporte Especializado",
       ],
       popular: true,
       color: "bg-purple-600",
@@ -40,13 +39,11 @@ const PlanSection: React.FC = () => {
       name: "Plano Ultimate",
       price: 119.99,
       features: [
-        "300+ canais",
-        "Qualidade 4K Ultra HD",
-        "Stream em 5 dispositivos",
-        "Replay de 90 dias",
-        "Suporte prioritário",
-        "Pacotes de esportes e filmes incluídos",
-        "Canais internacionais",
+        "365 dias de acesso",
+        "2 telas",
+        "Esportes, Filmes, Séries e Novelas",
+        "Stream de alta qualidade (sem travamentos)",
+        "Suporte Especializado",
       ],
       color: "bg-green-500",
       hoverColor: "hover:bg-green-600",
@@ -70,9 +67,9 @@ const PlanSection: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 md:gap-4 lg:gap-8 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-4 lg:gap-8 max-w-5xl mx-auto">
           {plans.map((plan) => (
-            <div key={plan.id} className="flex">
+            <div key={plan.id} className="flex justify-center">
               <PlanCard plan={plan} />
             </div>
           ))}
