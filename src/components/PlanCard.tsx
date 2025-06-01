@@ -30,11 +30,11 @@ const PlanCard: React.FC<PlanCardProps> = ({ plan }) => {
         }`}
       >
         <h3 className="text-2xl font-bold text-gray-800 mb-2">{plan.name}</h3>
+        <h4 className="text-lg text-gray-600 mb-2">{plan.subtitle}</h4>
         <div className="flex items-end mb-6">
           <span className="text-4xl font-bold text-gray-900">
             R${plan.price}
           </span>
-          <span className="text-gray-500 ml-2">/mês</span>
         </div>
 
         <ul className="space-y-3 mb-8">

@@ -7,8 +7,9 @@ const PlanSection: React.FC = () => {
   const plans: Plan[] = [
     {
       id: "basic",
-      name: "Plano Básico",
-      price: 24.99,
+      name: "Plano Gold",
+      subtitle: "ACESSO IMEDIATO",
+      price: 29.99,
       features: [
         "30 dias de acesso",
         "2 telas",
@@ -21,7 +22,8 @@ const PlanSection: React.FC = () => {
     },
     {
       id: "premium",
-      name: "Plano Premium",
+      name: "Plano Gold",
+      subtitle: "ACESSO IMEDIATO",
       price: 69.99,
       features: [
         "90 dias de acesso",
@@ -36,7 +38,8 @@ const PlanSection: React.FC = () => {
     },
     {
       id: "ultimate",
-      name: "Plano Ultimate",
+      name: "Plano Gold",
+      subtitle: "ACESSO IMEDIATO",
       price: 119.99,
       features: [
         "180 dias de acesso",
@@ -50,7 +53,8 @@ const PlanSection: React.FC = () => {
     },
     {
       id: "ultimate",
-      name: "Plano Ultimate",
+      name: "Plano Gold",
+      subtitle: "ACESSO IMEDIATO",
       price: 169.99,
       features: [
         "365 dias de acesso",
