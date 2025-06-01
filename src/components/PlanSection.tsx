@@ -9,7 +9,7 @@ const PlanSection: React.FC = () => {
       id: "basic",
       name: "Plano Gold",
       subtitle: "ACESSO IMEDIATO",
-      price: 29.99,
+      price: 24.99,
       features: [
         "30 dias de acesso",
         "2 telas",
